@@ -16,8 +16,8 @@ const gmail = google.gmail('v1');
 const BLACK_LIST = ["smyk"];
 
 
-const MONTH = 0; // numer miesiąca (0 - styczeń, 1 - luty, ...)
-const YEAR = 2023; // rok
+const MONTH = new Date().getMonth(); // numer miesiąca (0 - styczeń, 1 - luty, ...)
+const YEAR = new Date().getFullYear(); // rok
 
 const DOWNLOAD_DIR = `attachments/${MONTH + 1}-${YEAR}`;
 
