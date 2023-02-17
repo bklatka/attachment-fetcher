@@ -1,0 +1,14 @@
+{
+  "name": "monthly-attachment-fetcher",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "google-auth-library": "^8.7.0",
+    "googleapis": "^111.0.0",
+    "imap-simple": "^5.1.0"
+  }
+}

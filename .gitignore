@@ -1,0 +1,7 @@
+/attachments
+/node_modules
+.env
+/.idea
+credentials.json
+token.json
+.DS_Store
